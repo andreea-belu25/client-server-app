@@ -1,6 +1,3 @@
-`README -- Tema 4 PCOM`
-
-`Belu Andreea-Daniela, 324CB`
 
 I. requests.c
 
