@@ -2,9 +2,9 @@
 I. `requests.c`
 ---
 1. compute_get_or_delete_request
-- Creates through concatenation the specific string for GET or DELETE request (message).
-- Handles the case when a cookie is received and the string should contain it, and the case when an access_token is received and the string should contain it.
-- Due to the fact that the strings for GET and DELETE requests are almost the same, differing only in the first word, which indicates the type of request, I used a variable 'type' to distinguish between these two cases (type = 0 -> GET request, type = 1 -> DELETE request).
+    - Creates through concatenation the specific string for GET or DELETE request (message).
+    - Handles the case when a cookie is received and the string should contain it, and the case when an access_token is received and the string should contain it.
+    - Due to the fact that the strings for GET and DELETE requests are almost the same, differing only in the first word, which indicates the type of request, I used a variable 'type' to distinguish between these two cases (type = 0 -> GET request, type = 1 -> DELETE request).
 
 2. compute_post_request
 
