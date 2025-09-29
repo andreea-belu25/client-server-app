@@ -1,5 +1,5 @@
 
-I. `requests.c`
+I. requests.c
 ---
 1. compute_get_or_delete_request
     - Creates through concatenation the specific string for GET or DELETE request (message).
@@ -14,6 +14,7 @@ I. `requests.c`
 II. requests.h
 ---
     - Declares the headers of the functions implemented in requests.c.
+
 
 III. client.c
 ---
