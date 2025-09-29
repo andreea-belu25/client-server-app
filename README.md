@@ -13,8 +13,7 @@ I. requests.c
 
 II. requests.h
 ---
-
-    - Declares the headers of the functions implemented in requests.c.
+    Declares the headers of the functions implemented in requests.c.
 
 
 III. client.c
